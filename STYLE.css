@@ -1,0 +1,330 @@
+body
+{
+	background-color: rgba(52, 72, 112, 1.0);
+	margin : 0;
+}
+
+
+header
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: 'Staatliches', cursive;
+	font-size: 120px;
+	text-align: center;
+	background-image: url(Images/pokemon-epee-bouclier-switch-1-2.jpg) ;
+	background-repeat: no-repeat;
+	background-position: 0px -300px;
+	background-size: cover;
+	height: 600px; 	
+	display: flex;
+	justify-content: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.navbar
+{
+	border-right: 2px solid rgba(255, 255, 255, 0.5);
+	padding: 8px;
+}
+.navbar:last-child
+{
+	border-right: none;
+}
+
+
+.navbar a, .connect_button
+{
+	padding: 8px;
+	color: rgba(204, 209, 219, 0.8);
+	transition: .5s;
+}
+
+.navbar:not(.active)
+{
+	transition: .5s;
+}
+
+.navbar:not(.active):hover, .connect:hover.connect_button
+{
+	background-color: white;
+	transition: .5s;
+}
+.active
+{
+	background-color: white;
+}
+
+/*.connect
+{
+	display: inline-block;
+}
+
+.connect_content
+{
+	display: none;
+	position: absolute;
+  	z-index: 1;
+  	background-color: rgba(220, 158, 34, 1.0);
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	min-width: 185.75px;
+}
+
+.connect_content p{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.connect_content p:hover
+{
+	background-color: black;
+	color: white;
+}
+
+.connect:hover .connect_content
+{
+	display: block;
+}*/
+
+nav
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+	align-items: center	;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	font-family: 'Staatliches', cursive;
+	font-size: 45px;
+	background-color: rgba(220, 158, 34, 1.0);
+	margin-bottom: 50px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+section canvas
+{
+	align-self: center;
+}
+
+section:not(.index,.submit_message)
+{
+	padding: 8px;
+	display: flex;
+	align-items: center	;
+	vertical-align: middle;
+	font-size: 30px;
+	width: 1300px;
+	margin: auto;
+	justify-content: center;
+	background-color: rgba(204, 209, 219, 0.5);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section.index
+{
+	display: flex;
+	align-items: center	;
+	vertical-align: middle;
+	font-size: 30px;
+	width: 1500px;
+	margin: auto;
+	justify-content: center;
+}
+
+div.index
+{
+	background-color: rgba(204, 209, 219, 0.5);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+aside.index
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	/*background-color: rgba(204, 209, 219, 0.3);*/
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+aside.index img
+{
+	width: 200px;
+	height: auto;
+}
+
+div
+{
+	text-align: center;
+}
+
+em
+{
+	font-size: 30px;
+}
+
+#Stats
+{
+	display: grid;
+	grid-template-columns: 300px 300px 400px;
+	align-items: start;
+	justify-content: space-evenly;
+	padding: 10px;
+}
+
+.p_pic
+{
+
+}
+
+.p_pic img
+{
+	width: 200px;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.p_name
+{
+	justify-content: center;
+	align-self: center;
+	padding: 10px;
+	font-family: 'Staatliches', cursive;
+}
+
+.p_stats
+{
+	padding: 10px;
+	align-self: center;
+	padding-left: 100px;
+	justify-self: safe left;
+}
+
+#combat
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: 'Staatliches', cursive;
+	font-size: 60px;
+	border: 8px groove rgba(120, 10, 10, 1.0);
+	border-radius: 25px;
+	background-color: rgba(210, 10, 10, 0.9);
+	margin-top: 200px;
+	width: 500px;
+	height: 100px;
+	transition: 0.4s;
+}
+
+#combat:hover
+{
+	padding:  15px;
+	box-shadow: 0 0 0 20px white;
+	color: white;
+	transition: 0.4s;
+}
+
+#button
+{
+	padding: 10px;
+	position: absolute;
+	visibility: visible;
+}
+
+#button:hover
+{
+	cursor: pointer;
+}
+
+#selection{
+	padding: 10px;
+	visibility: hidden;
+}
+
+#selection div
+{
+	margin-bottom: 18px;
+	padding: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: 'Staatliches', cursive;
+	font-size: 60px;
+	border: 8px groove rgba(26, 36, 56, 1.0);
+	border-radius: 25px;
+	background-color: rgba(39, 54, 84, 1);
+}
+
+#selection div:last-child
+{
+	margin-bottom: 0;
+}
+
+#selection div:hover
+{
+	padding:  15px;
+	box-shadow: 0 0 0 12px white;
+	color: white;
+	transition: 0.4s;
+}
+
+#selection a
+{
+	color: white;
+	text-decoration: none;
+}
+
+footer
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center	;
+	vertical-align: middle;
+	font-size: 20px;
+	width: 100%;
+	margin-top: 200px;
+	justify-content: space-evenly;
+	background-color: rgba(204, 209, 219, 0.5);
+	gap: 20px;
+}
+
+footer	a
+{
+	color: black;
+}
+
+div.foothead
+{
+	display: inherit;
+	flex-direction: row;
+	margin-right: 40px;
+	margin-left:  40px;
+	justify-content: space-evenly;
+	gap: 60px;
+	width: = 600px;
+}
+
+div.footcontent
+{
+	display: inherit;
+	flex-direction: row;
+	margin-right: 40px;
+	margin-left:  40px;
+	justify-content: space-evenly;
+	gap: 60px;
+	width: = 600px;
+}
+
+div.foothead div
+{
+	width: 300px;
+	padding: 0, 40px, 0, 40px;
+}
+
+div.footcontent div
+{
+	width: 300px;
+	padding: 0, 40px, 0, 40px;
+}

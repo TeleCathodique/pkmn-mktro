@@ -1,0 +1,19 @@
+.profil
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.change
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.Stats
+{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
+}

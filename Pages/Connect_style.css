@@ -1,0 +1,15 @@
+#connect{
+	display: none;
+}
+
+#signin{
+	display: none;
+}
+
+.page_connect{
+}
+
+.page_connect button{
+	padding: 10px;
+	margin: 10px;
+}

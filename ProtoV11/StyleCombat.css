@@ -1,0 +1,153 @@
+body{
+	background-image: url('images/paysage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}	
+
+
+
+section
+{
+
+}
+
+#conteneur
+{
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	/*flex-direction: column;*/
+}
+
+div
+{
+
+}
+
+#zonedessin
+{
+
+}
+
+#selecteurs
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*margin: auto;*/
+	background-color: rgba(220, 158, 34, 0.5);
+	font-family: 'Staatliches', cursive;
+	font-size: 25px;
+	padding: 8px;
+	/*border: 8px groove rgba(120, 10, 10, 1.0);*/
+	border-radius: 25px;
+}
+
+
+#start
+{
+
+}
+
+#start:hover
+{
+
+
+}
+
+#canvasmute
+{
+	background-color: rgba(220,0, 0, 1.0);
+	border: 2px groove rgba(10, 10, 10, 1.0);
+	padding: 4;
+	width: auto;
+	height: auto;
+	border-radius: 25px;
+	color: black;
+	transition: 0.1s;
+	justify-content: center;*/
+
+}
+
+#canvasmute:hover
+{	
+	background-color: rgba(220,0, 0, 1.0);
+	padding: 5px;
+	color: white;
+	box-shadow: 0 0 0 5px white;
+	transition: 0.5s;
+}
+
+#selection{
+
+}
+
+#select{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+/*	font-family: 'Staatliches', cursive;
+	font-size: 25px;*/
+	
+}
+
+#grosBouton{
+	margin: auto;
+	background-color: rgba(220,0, 0, 1.0);
+	border: 4px groove rgba(10, 10, 10, 1.0);
+	padding: 10px;
+	width: auto;
+	height: auto;
+	border-radius: 25px;
+	color: black;
+	transition: 0.1s;
+	justify-content: center;*/
+}
+
+#grosBouton:hover {
+	margin: auto;
+	background-color: rgba(220,0, 0, 1.0);
+	padding: 15px;
+	color: white;
+	box-shadow: 0 0 0 5px white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+#grosBoutonOut{
+	margin: auto;
+	background-color: rgba(220,0, 0, 1.0);
+	border: 4px groove rgba(10, 10, 10, 1.0);
+	padding: 10px;
+	width: auto;
+	height: auto;
+	border-radius: 25px;
+	color: black;
+	transition: 0.1s;
+	justify-content: center;*/
+}
+
+#grosBoutonOut:hover {
+	margin: auto;
+	background-color: rgba(220,0, 0, 1.0);
+	padding: 15px;
+	color: white;
+	box-shadow: 0 0 0 5px white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+#grosBoutonOut a
+{
+	color: black;
+	text-decoration: none;
+}
+
+select
+{
+	background-color: rgba(220, 158, 34, 1.0);
+
+}
